@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  height: 100vh; /* Altura del cuerpo al 100% del viewport */
+  margin: 0;
+  overflow: hidden; /* Para evitar la barra de desplazamiento vertical */
+  position: relative; /* Importante para que el fondo se ajuste al cuerpo */
+  background-image: url('https://www.teahub.io/photos/full/290-2906247_sky-hd-wallpapers-hd-picture-of-sky.jpg');
+}

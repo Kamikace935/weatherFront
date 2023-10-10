@@ -1,0 +1,46 @@
+
+
+.content {
+  text-align: center; /* Alinea el texto en el centro */
+  color:skyblue;
+}
+
+h2 {
+    font-size: 7ch;
+    color: aqua;
+}
+
+#info{
+    display: -ms-flexbox;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#table table {
+    display: table;
+    border-collapse: separate; /* Asegura que haya separación entre las columnas */
+    border-spacing: 10px; /* Ajusta el valor según la cantidad de espacio que desees entre las columnas */
+}
+
+#table table td,
+#table table th {
+    padding: 10px; /* Ajusta el valor según la cantidad de espacio que desees entre las columnas */
+}
+
+#table{
+    color:black;
+}
+
+label{
+    font-size:2ch;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 20px;
+    border-color: whitesmoke;
+}
+
+#city{
+width: 155px;
+}
